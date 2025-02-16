@@ -1,0 +1,38 @@
+Loading the datasets...
+Datasets loaded successfully!
+
+Train-test split for Project Delay completed!
+
+Running cross-validation for Project Delay...
+
+Project Delay - Cross-validation MSE (5-fold): [-3.96709327 -4.02334321 -3.96985099 -3.92405664 -3.86439554]
+Average MSE for Project Delay: 3.9497479289249995
+
+Training the Random Forest model for Project Delay prediction...
+Model training completed for Project Delay!
+
+Making predictions on the Project Delay test set...
+
+Project Delay Prediction Results on Test Set (Random Forest):
+Mean Squared Error: 3.933969544
+R-squared: 0.9712123439755044
+
+Train-test split for Client Satisfaction completed!
+
+Running cross-validation for Client Satisfaction...
+
+Client Satisfaction - Cross-validation MSE (5-fold): [-8.87039505 -8.70733655 -8.32840915 -8.45878905 -8.9706086 ]
+Average MSE for Client Satisfaction: 8.667107679999999
+
+Training the Random Forest model for Client Satisfaction prediction...
+Model training completed for Client Satisfaction!
+
+Making predictions on the Client Satisfaction test set...
+
+Client Satisfaction Prediction Results on Test Set (Random Forest):
+Mean Squared Error: 8.479552700000001
+R-squared: -0.042236617645775576
+
+Saving the models...
+
+Random Forest models saved successfully!

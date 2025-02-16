@@ -1,0 +1,59 @@
+Loading the datasets...
+Datasets loaded successfully!
+
+Train-test split for Project Delay completed!
+
+Running cross-validation for Project Delay...
+Cross-Validating Project Delay:  40%|█████████████████████████████████████████████████▌                                                                          | 2/5 [02:58<04:27, 89.15s/itCross-Validating Project Delay:  60%|██████████████████████████████████████████████████████████████████████████▍                                                 | 3/5 [04:27<02:57, 88.76s/itCross-Validating Project Delay:  80%|███████████████████████████████████████████████████████████████████████████████████████████████████▏                        | 4/5 [05:55<01:2Cross-Validating Project Delay: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5/5 [07:24<00:00, 88.76Cross-Validating Project Delay: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5/5 [07:24<00:00, 88.95s/it]
+
+Project Delay - Cross-validation MSE (5-fold): [array([-3.96709327, -4.02334321, -3.96985099, -3.92405664, -3.86439554]), array([-3.96709327, -4.02334321, -3.96985099, -3.92405664, -3.86439554]), array([-3.96709327, -4.02334321, -3.96985099, -3.92405664, -3.86439554]), array([-3.96709327, -4.02334321, -3.96985099, -3.92405664, -3.86439554]), array([-3.96709327, -4.02334321, -3.96985099, -3.92405664, -3.86439554])]
+Average MSE for Project Delay: [3.96709327 4.02334321 3.96985099 3.92405664 3.86439554]
+
+Training the Random Forest model for Project Delay prediction...
+Model training completed for Project Delay!
+
+Making predictions on the Project Delay test set...
+
+Project Delay Prediction Results on Test Set (Random Forest):
+Mean Squared Error: 3.933969544
+R-squared: 0.9712123439755044
+
+Train-test split for Client Satisfaction completed!
+
+Running cross-validation for Client Satisfaction...
+Cross-Validating Client Satisfaction: 100%|████████████████████| 5/5 [01:26<00:00, 17.22s/it]
+
+Client Satisfaction - Cross-validation MSE (5-fold): [array([-8.87039505, -8.70733655, -8.32840915, -8.45878905, -8.9706086 ]), array([-8.87039505, -8.70733655, -8.32840915, -8.45878905, -8.9706086 ]), array([-8.87039505, -8.70733655, -8.32840915, -8.45878905, -8.9706086 ]), array([-8.87039505, -8.70733655, -8.32840915, -8.45878905, -8.9706086 ]), array([-8.87039505, -8.70733655, -8.32840915, -8.45878905, -8.9706086 ])]
+Average MSE for Client Satisfaction: [8.87039505 8.70733655 8.32840915 8.45878905 8.9706086 ]
+
+Training the Random Forest model for Client Satisfaction prediction...
+Model training completed for Client Satisfaction!
+
+Making predictions on the Client Satisfaction test set...
+
+Client Satisfaction Prediction Results on Test Set (Random Forest):
+Mean Squared Error: 8.479552700000001
+R-squared: -0.042236617645775576
+
+Saving the models...
+
+Random Forest models saved successfully!
+Training the Linear Regression model for Project Delay prediction...
+Model training completed for Project Delay with Linear Regression!
+
+
+Project Delay Prediction Results on Test Set (Linear Regression):
+Mean Squared Error: 24.81861273676739
+R-squared: 0.8183845404800053
+
+Training the Linear Regression model for Client Satisfaction prediction...
+Model training completed for Client Satisfaction with Linear Regression!
+
+
+Client Satisfaction Prediction Results on Test Set (Linear Regression):
+Mean Squared Error: 8.143853431036556
+R-squared: -0.0009752347628528835
+
+Saving the models...
+
+Linear Regression models saved successfully!
